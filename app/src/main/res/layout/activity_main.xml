@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="example.com.android.lovebarometer.MainActivity">
+
+
+
+
+
+
+        <ImageView
+            android:id="@+id/photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/love"
+            tools:ignore="ContentDescription"
+            android:scaleType="centerCrop"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/is_it_true_love"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:typeface="serif"
+            android:fontFamily="sans-serif"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#9C27B0"/>
+
+         <Button
+             android:id="@+id/start"
+             android:layout_alignParentBottom="true"
+             android:layout_alignParentLeft="true"
+             android:layout_alignParentStart="true"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Start"
+             android:background="#C51162"
+             tools:ignore="HardcodedText"
+             android:layout_marginBottom="10dp"
+             android:layout_marginTop="10dp"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:layout_marginStart="10dp"
+             android:layout_marginEnd="10dp"
+             android:padding="5dp"
+             android:textStyle="bold"
+             android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/quit"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quit"
+        android:background="#c51162"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        tools:ignore="HardcodedText" />
+
+
+
+     </RelativeLayout>
+
+
+
